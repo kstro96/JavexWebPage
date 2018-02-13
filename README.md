@@ -1,6 +1,6 @@
-# JavexWebPage
-Javex's web page.
-Página web del semillero de robótica de la Pontificia Universidad Javeriana.
+# JavexWebPage #
+Javex's web page.\n
+Página web del semillero de robótica de la Pontificia Universidad Javeriana.\n
 ==========
 Proyecto de realización de la página web del semillero de robótica de la Pontificia Universidad Javeriana.
 - En este repositorio se encuentran los distintos documentos que conforman la página web.
