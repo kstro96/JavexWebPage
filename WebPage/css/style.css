@@ -38,7 +38,8 @@ CONTENTS:
 @import url('overwrite.css');
 /* animation */
 @import url('animate.css');
-
+/* Javex Font (upperLeft corner) */
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
 
 
 /* =========================================================
@@ -149,6 +150,9 @@ p {
 	line-height: 1.6em;
 	margin: 0 0 10px 0;
 }
+.text_WhoAreWe{
+	text-align: justify;
+}
 
 blockquote {
 	font-size:18px;
@@ -160,6 +164,7 @@ blockquote.large {
 	font-size:36px;
 	font-weight:700;
 	line-height:1.1em;
+	text-align: justify;
 }
 /* = > Comillas de la citacion
 blockquote.large:before {
@@ -288,7 +293,9 @@ h2.pagetitle {
 .navbar .brand {
 	margin-left:0;
 	padding: 0;
-	margin-top: 1.05em;
+	margin-top: 15px;
+	font-family: 'Tangerine', serif;
+  font-size: 40px;
 }
 .navbar .brand a {
 	padding: 0;
@@ -296,7 +303,6 @@ h2.pagetitle {
 	font-size: 1.75em;
 	margin-left: 0;
 	font-weight: 400;
-	text-transform:uppercase;
 }
 .navbar .brand a:hover {
 	text-decoration: none;
@@ -386,13 +392,13 @@ header .logo {
 }
 
 #main-flexslider ul.slides li p {
-	font-size: 50px;
-	text-transform: uppercase;
+	font-size: 120px;
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
 	line-height: 1;
 	color:#fff;
+	font-family: 'Tangerine', serif;
 }
 #main-flexslider.flexslider {
 		margin:0;
@@ -760,7 +766,7 @@ section#services .span3:hover {
 }
 
 section#services .service-box h2 {
-	color: #f7f7f7;
+	color: #312f2b;
 	font-weight: 700;
 }
 
@@ -1282,6 +1288,9 @@ i.icon-white {
 }
 .icon-10x {
   font-size: 10em;
+}
+.icon-15x {
+  font-size: 15em;
 }
 .icon-20x {
   font-size: 20em;
